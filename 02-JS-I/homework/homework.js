@@ -27,7 +27,7 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  return str 
+  return str;
 }
 
 function suma(x, y) {
@@ -66,7 +66,6 @@ function sonIguales(x, y) {
   } else {
     return false}
   }
-}
 
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
@@ -208,7 +207,7 @@ function obtenerAreaRectangulo(alto, ancho) {
 function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
-returno lado * 4;  
+return lado * 4;  
 }
 
 
