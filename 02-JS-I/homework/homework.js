@@ -1,10 +1,10 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
 // Crea una variable "string", puede contener lo que quieras:
-const nuevaString = HOLA;
+const nuevaString = 'Hola';
 
 // Crea una variable numérica, puede ser cualquier número:
-const nuevoNum = 87;
+const nuevoNum = 7;
 
 // Crea una variable booleana:
 const nuevoBool = true;
@@ -34,15 +34,13 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  suma(x,y);
   return x + y;
-
 }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-return y - x;  
+return x - y;  
 }
 
 function multiplica(x, y) {
@@ -61,18 +59,21 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (x === y){
+  if (x === y) {
     return true;
   } else {
     return false}
   }
+}
 
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  return str1.length === str2.length;
-}
+  If( str1.lenght === str2.length){
+    return true;
+    }
+    return false;
 
 function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
@@ -94,7 +95,6 @@ function mayorQueCincuenta(num) {
   } else {
     return false;
   }
-}
 
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
@@ -107,12 +107,12 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num % 2 === 0) {
+  if ( num % 2 === 0) {
     return true;
   } else {
     return false
   }
-  }
+}
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
@@ -129,7 +129,7 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  return Math.pow (num, 2);
+  return Math.pow(num, 2);
 }
 
 function elevarAlCubo(num) {
@@ -169,7 +169,8 @@ function esPositivo(numero) {
   //Si el número es 0, devuelve false
   if (numero === o) {
     return false;
-  } else if (numero >0) {
+  } 
+  else if (numero >0) {
     return "Es positivo";
   }  else {
     return "Es negativo";
@@ -180,21 +181,21 @@ function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
-  return str + "!";
+  return str + '!';
 }
 
 function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  return nombre + " " + apellido;
+  return nombre + ' ' + apellido;
 }
 
 function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
- return "Hola" + nombre + "!";
+ return "Hola" + ' ' + nombre + "!";
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
@@ -202,7 +203,6 @@ function obtenerAreaRectangulo(alto, ancho) {
   // Tu código:
   return alto * ancho;
 }
-
 
 function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
